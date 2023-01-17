@@ -30,4 +30,24 @@ h4{
   color: rgb(255, 204, 102);
   text-shadow: rgb(77, 51, 0) 0.1em 0.1em 0.2em
 }
-   
+
+button{
+  background-color:rgb(77, 51, 0);
+  display:inline-block;
+  text-shadow: rgb(77, 51, 0) 0.1em 0.1em 0.2em;
+  color: rgb(255, 204, 102);
+  
+  border: 3px solid black;
+  padding: 12px 34px;
+  font-size: 20px;
+  
+  position: relative;
+  cursor: pointer;
+}
+
+
+button:hover{
+  border:1px solid red;
+  background: red;
+  transition:1s;
+}

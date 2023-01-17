@@ -17,7 +17,12 @@
         <div><img src="https://forum.samia.pl/uploads/monthly_2022_10/logo2.png.94908c897f5d5393c0ebcf1204d05be8.png.1a60d6cc2eb21c6e5b0699b0fb88d566.png" ></div>
         <h1>Statystyki Samia.pl</h1>
         <h2>Autorzy: Sebastian Niezgoda i Bartłomiej Ryczek</h2>
-        <script>loadData()</script>
+        <button onclick="loadData1()">Wczytaj dane nr 1</button>
+        <button onclick="loadData2()">Wczytaj dane nr 2</button>
+        <button onclick="loadData3()">Wczytaj dane nr 3</button>
+        <br>
+        <br>
+        <button onclick="window.location.reload()">Spróbuj ponownie z innymi danymi</button>
         
         <h3>Gracze podzieleni według regionów:</h3>
         <canvas id='myPieChart' style="margin-bottom: 3cm; margin-top: 3cm; height: 450px; background-color:rgb(255, 255, 255,0.7);border: 5px solid rgb(0, 0, 0,0.6);"></canvas>
